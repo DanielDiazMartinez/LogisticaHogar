@@ -1,0 +1,14 @@
+#backend/LogisticaCasa.Backend.Api/Dockerfile
+
+# Build stage
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /app
+COPY . .
+RUN dotnet restore "LogisticaHogar.Backend.Api.csproj"
+RUN dotnet publish "LogisticaCasa.Backend.Api.csproj" -c Release -o /app/publish
+
+# Runtime stage
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
+WORKDIR /app
+COPY --from=build /app/publish .
+ENTRYPOINT ["dotnet", "LogisticaHogar.Backend.Api.dll"]

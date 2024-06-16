@@ -1,0 +1,6 @@
+@LogisticaHogar.Backend.Api_HostAddress = http://localhost:5174
+
+GET {{LogisticaHogar.Backend.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
