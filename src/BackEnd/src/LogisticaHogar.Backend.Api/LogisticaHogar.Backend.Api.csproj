@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -18,7 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\LogisticaHogar.Backend.Data\LogisticaHogar.Backend.Data.csproj" />
     <ProjectReference Include="..\LogisticaHogar.Backend.Model\LogisticaHogar.Backend.Model.csproj" />
-    <ProjectReference Include="..\LogisticaHogar.Backend.Services\LogisticaHogar.Backend.Services.csproj" />
+    <ProjectReference Include="..\LogisticaHogar.Backend.Services\LogisticaHogar.Backend.Service.csproj" />
   </ItemGroup>
 
 </Project>

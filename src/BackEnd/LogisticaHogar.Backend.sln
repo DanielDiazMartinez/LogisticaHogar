@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogisticaHogar.Backend.Api"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{307E69E5-7C31-4267-8A5D-BB65902F3C20}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogisticaHogar.Backend.Services", "src\LogisticaHogar.Backend.Services\LogisticaHogar.Backend.Services.csproj", "{11AE2EFD-B9B9-4E4D-ADD9-BF8CE9B0403A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogisticaHogar.Backend.Service", "src\LogisticaHogar.Backend.Services\LogisticaHogar.Backend.Service.csproj", "{11AE2EFD-B9B9-4E4D-ADD9-BF8CE9B0403A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogisticaHogar.Backend.Model", "src\LogisticaHogar.Backend.Model\LogisticaHogar.Backend.Model.csproj", "{A3D20FA4-268B-4D66-B51D-14AD341E1E37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogisticaHogar.Backend.Model", "src\LogisticaHogar.Backend.Model\LogisticaHogar.Backend.Model.csproj", "{A3D20FA4-268B-4D66-B51D-14AD341E1E37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogisticaHogar.Backend.Data", "src\LogisticaHogar.Backend.Data\LogisticaHogar.Backend.Data.csproj", "{D566419F-B223-4B70-926A-0189321E9BEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogisticaHogar.Backend.Data", "src\LogisticaHogar.Backend.Data\LogisticaHogar.Backend.Data.csproj", "{D566419F-B223-4B70-926A-0189321E9BEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogisticaHogar.Backend.ServiceDepedendencies", "LogisticaHogar.Backend.ServicesDepedendencies\LogisticaHogar.Backend.ServiceDepedendencies.csproj", "{A34A050A-5B11-4834-AF8E-7CD6C377ED32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{D566419F-B223-4B70-926A-0189321E9BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D566419F-B223-4B70-926A-0189321E9BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D566419F-B223-4B70-926A-0189321E9BEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A34A050A-5B11-4834-AF8E-7CD6C377ED32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34A050A-5B11-4834-AF8E-7CD6C377ED32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34A050A-5B11-4834-AF8E-7CD6C377ED32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34A050A-5B11-4834-AF8E-7CD6C377ED32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{11AE2EFD-B9B9-4E4D-ADD9-BF8CE9B0403A} = {307E69E5-7C31-4267-8A5D-BB65902F3C20}
 		{A3D20FA4-268B-4D66-B51D-14AD341E1E37} = {307E69E5-7C31-4267-8A5D-BB65902F3C20}
 		{D566419F-B223-4B70-926A-0189321E9BEF} = {307E69E5-7C31-4267-8A5D-BB65902F3C20}
+		{A34A050A-5B11-4834-AF8E-7CD6C377ED32} = {307E69E5-7C31-4267-8A5D-BB65902F3C20}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0FA1C00-6DDE-4E78-B47F-A87EFE9841FA}
